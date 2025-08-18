@@ -9,6 +9,7 @@ This pipeline allows for a test-retest reliability analysis to be completed on r
    - Source: https://github.com/MataiMRI/restingSnake
    - An analysis pipeline created by MataiMRI to allow for fMRIPrep to be run
    - T1-weighted outputs are of interest
+   - Not included above
   
 2) Tedana (Multi-echo)
    - Run tedana.sh: This will run tedana on the fMRIPrep output data (each echo from the multi-echo data)
