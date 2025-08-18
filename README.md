@@ -44,11 +44,12 @@ This pipeline allows for a test-retest reliability analysis to be completed on r
    - Run reliability_maps.sh: Completes pairwise correlation of each greyordinate (across session one and session two data)
   
 9) Visualisation and Mean Reliability:
+   - Calculating mean reliability and visualising reliability in various brain regions: Wholebrain, Cortex, subcortex, Cerebellum, Cerebellum + Subcortex, Amygdala, vmPFC
    - Run wholebrain_analysis.sh and cifti_subcortical_cerebellum.sh and cortex_subcortex.sh and amygdala.sh
    - Download Glasser Atlas: https://balsa.wustl.edu/file/3VLx
    - Run vmpfc_mask.sh: Create mask for vmPFC from Glasser Atlas
-   - Run resample_vmpfc_mask.sh and vmPFC.sh
-   - Run visualisation_all.sh
+   - Run resample_vmpfc_mask.sh and vmPFC.sh: Resamples mask to match CIFTI files, calculates mean reliability
+   - Run visualisation_all.sh: Creates any visual reliability maps that do not already exist from previous scripts
    - Will end up with mean reliability values and visualisations for all individuals and brain regions of interest (for single-echo and multi-echo)
   
 10) Exclude Zeros:
