@@ -56,4 +56,9 @@ This pipeline allows for a test-retest reliability analysis to be completed on r
     - For the subcortical data, zeros were automatically excluded from mean calculations (as volumetric and calculated with fsl)
     - Run exclude_zeros_final.sh: Allows for zeros to be excluded from mean calculations in cortical data
     - This is an optional step that can be included based on cortical data quality
-     
+
+11) Some extra stuff:
+   - A link for doing group-average template overlays/parcellations and instructions: https://github.com/edickie/ciftify/blob/master/ciftify/data/HCP_S1200_GroupAvg_v1/ReleaseNotes_HCP_S1200_GroupAvg_v1.txt
+   - HCP S1200 group average dataset:
+   https://balsa.wustl.edu/gKm1?version=Z4B15
+
